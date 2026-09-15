@@ -6,10 +6,10 @@ using System;
 
 public class Usuario
 {
-    public int idUsuario;
-    public string Nombre;
-    public string Apellido;
-    public string Email; //falta poner que sea unico
-    public DateTime FechaNacimiento;
-    public string Contraseña;
+    public int idUsuario { get; set; }
+    public required string Nombre { get; set; } = string.Empty;
+    public required string Apellido { get; set; } = string.Empty;
+    public required string Email { get; set; } = string.Empty; //falta poner que sea unico
+    public DateTime FechaNacimiento { get; set; }
+    public required string Contrasenia { get; set; } = string.Empty;
 }

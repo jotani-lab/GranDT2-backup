@@ -1,37 +1,11 @@
 using System;
 using System.Collections.Generic;
-
+namespace Interface;
+//
 public interface IRepoEquipo
 {   
-    public AgregarEquipo();
-    public EliminarEquipo();
-    public ActualizarEquipo();
-    public List<Equipo> ObtenerEquipos(  );
+    public void AgregarEquipo(Equipo equipo);
+    public void EliminarEquipo(Equipo equipo);
+    public void ActualizarEquipo(Equipo equipo);
+    public List<Equipo> ObtenerEquipos();
 }
-/*
-    sfhd
-    /\
-    ||
-    ||
-    ||
-    ||
-    ||
-    ||
-    ||
-    |
-    |
-    |
-    |
-    |
-    |
-    |
-    |
-    |
-    |
-    |
-    
-    ||
-    ||
-    ||
-    oo
-*/

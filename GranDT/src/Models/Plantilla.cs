@@ -1,6 +1,7 @@
 using System;
 public class Plantilla
 {
-    public double Presupuesto; 
-    public int CantJugadoresmax = 20;
+    public double Presupuesto {get ; set;}
+    public int CantJugadoresmax {get ; set;} = 20;
+    
 }
